@@ -1,0 +1,13 @@
+.container{
+    overflow-x: hidden;
+    max-width: 85rem;
+}
+
+::-webkit-scrollbar{
+    width: 0.5em;
+    height: 1rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #00212b;
+}

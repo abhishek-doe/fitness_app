@@ -1,0 +1,103 @@
+/* Container for the sign-in form */
+
+.signup {
+  background-image: url("../images/gym-back.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.signup-container {
+  width: 45rem;
+  height: 30rem;
+  border-radius: 5px;
+  background: white;
+  padding: 1rem 2rem;
+  margin: 2rem 5rem;
+  background-color: #464646;
+  color: white;
+  border-radius: 10px;
+}
+.form-div{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* Style for the sign-in form header */
+.signup-header {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  font-weight: bolder;
+}
+
+/* Style for the email and password input fields */
+.signup-input {
+  display: block;
+  width: 20rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #616161;
+  font-size: 16px;
+}
+
+/* Style for the sign-in button */
+.signup-button {
+  display: block;
+  width: 21.3rem;
+  height: 3rem;
+  padding: 10px;
+  background-color: #0f202b;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-top: 1.5rem;
+  color: white;
+}
+
+/* Style for the sign-in button when hovered */
+.signup-button:hover {
+  background-color: #1cd15d;
+  color: #0f202b;
+}
+
+/* Style for error messages */
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup .back {
+  height: 3rem;
+  width: 17rem;
+  border: none;
+  border-radius: 1rem;
+  top: 5rem;
+  left: 34rem;
+  font-weight: bolder;
+  color: black;
+  font-size: 1rem;
+  margin: 1rem;
+}
+.signup label {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.signup .logo{
+  background: #0f202b;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 1rem;
+  margin-left: 5rem;
+  border-radius: 10px;
+}

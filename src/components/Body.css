@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+}
+
+.body-top {
+  width: 85rem;
+  padding: 5rem 0;
+  background-color: #0f202b;
+}
+
+.discovery {
+  color: white;
+  font-size: 56px;
+  font-family: arial;
+  margin-left: 120px;
+}
+
+.stylish {
+  margin-left: 120px;
+  margin-top: -25px;
+}
+
+.course-btn {
+  margin-left: 150px;
+  margin-top: 5px;
+}
+.about-btn {
+  margin-left: 25px;
+}
+
+.top-2 {
+  margin-top: 1rem;
+}
+
+.tag {
+  margin-left: 28rem;
+  margin-top: 10px;
+}
+
+.heading-main {
+  font-family: arial;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 33px;
+  margin-left: 17rem;
+  margin-top: 15px;
+}
+
+.heading-2-1 {
+  margin-left: 17.1rem;
+  margin-top: 10px;
+}
+
+.heading-3 {
+  font-family: arial;
+  font-weight: 900;
+  color: #8b8b8b;
+  margin-left: 26rem;
+  margin-top: 15px;
+}
+
+.tr-ima {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 4.5rem;
+}
+
+.tr-ima img {
+  height: 19.6rem;
+  margin: 1rem;
+}
+
+.top-3 {
+  margin-left: 2.4rem;
+  margin-top: 2.5rem;
+  font-family: arial;
+}
+
+.top-3-2 {
+  margin-top: 1rem;
+  color: #888888;
+}
+
+.top-3 img {
+  display: flex;
+  margin-top: -4rem;
+  margin-left: 62.9rem;
+}
+.chpr {
+  margin-left: 3.2rem;
+}
+.tr-ima {
+  border-radius: 10px;
+}
+.video1 {
+  height: 20rem;
+  width: 35rem;
+  display: flex;
+  margin-left: 45rem;
+  margin-top: -20rem;
+}

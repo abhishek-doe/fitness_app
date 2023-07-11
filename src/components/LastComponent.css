@@ -1,0 +1,55 @@
+.main-1{
+    font-family: arial;
+    background-image: url("../images/lower-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0px -15rem; 
+}
+.main-1 h1{
+    margin-left: 32rem;
+    margin-top: 2.8rem;
+    font-size: 1.5rem;
+}
+.main-1 p{
+    margin-left: 20rem;
+    margin-top: 1rem;
+    color: #8B8B8B;
+}
+.main-1 img{
+    margin-left: 8rem;
+    width: 70rem;
+    margin-top: 1rem;
+}
+
+.main-2{
+    margin-left: 23rem;
+    margin-top: 1.5rem;
+}
+
+.main-2 img{
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+.plans img{
+    height: 29rem;
+    gap: 20rem;
+    margin-left: 4.2rem;
+}
+
+.plans{
+    margin-top: 2.5rem;
+    display: flex;
+    
+}
+.main-2 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.plans img:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+#ad2{
+    margin-left: 6rem;
+    margin-top: 4rem;
+    width: 70rem;
+}

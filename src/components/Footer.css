@@ -1,0 +1,139 @@
+.logos img:hover {
+    animation: bounce 0.5s;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+.footer{
+    /* height: 43.75rem; */
+    background-color: #0F202B;
+    font-family: arial;
+    position: absolute;
+    color: white;
+    margin-top: 2rem;
+    max-width: 87rem;
+    width: 85.4rem;
+}
+
+.image{
+    width: 50rem;
+    margin-right: 80px;  
+}
+
+.creator{
+    width: 20rem;
+    position: absolute;
+    top: 60px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 9rem;
+    gap: 3rem;
+}
+
+.links{
+    display: flex;
+}
+.useful{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -8rem;
+    display: flex;
+}
+
+.useful ul{
+    list-style: none;
+    color: white;
+    padding: 0;
+}
+
+.useful ul li a{
+    color: white;
+}
+
+.useful ul li{
+    margin-top: 13px;
+}
+
+.carrier{
+    margin-left: 70px;
+}
+    
+.email{
+    margin-left: 105px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.email input{
+    height: 2rem;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.email input::placeholder{
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+.email-button{
+    height: 45px;
+    width: 10rem;
+    background-color: #1CD15D;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.email-button a{
+    color: white;
+}
+.email p{
+    font-size: 1rem;
+}
+
+.last{
+    margin-top: 1.3rem;
+    width: 85.4rem;
+    /* margin-left: -3.7rem; */
+}
+
+
+.logos{
+    margin-top: 2rem;
+}
+.contact-btn{
+    display: flex;
+    margin-top: 2rem;
+}
+.logos a{
+    text-decoration: none;
+    color: white;
+}
+.logos a{
+    margin: 1rem;
+}
+.motivate{
+    display: flex;
+    margin-top: 1rem;
+}
+.footer .footer-links{
+    margin-top: -9rem;
+}
